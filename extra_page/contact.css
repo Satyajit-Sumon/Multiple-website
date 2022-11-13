@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigation-bar{
+    background:linear-gradient(#ff00008a 4%,yellow 5%,#1b5d1b 90%,#0000ff80 1%);
+}
+.nav-container{
+    width: 1000px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: white;
+    padding: 10px 0;
+   
+}
+.nav-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-tag{
+    margin-right: 20px;
+}
+.nav-tag a{
+    margin-right: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    padding: 5px;
+}
+.nav-tag a:hover{
+    background-color: #0000008e;
+    color: red;
+    font-weight: bold;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+form{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px -3px;
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 1px 3px 0px white;
+}
+input{
+    display: block;
+    margin: auto;
+    padding: 7px 120px 7px 15px;
+    border-radius: 30px;
+    border: none;
+}
+input:nth-child(2){
+    margin: 15px 0px 15px 150px;
+}
+textarea{
+
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 285px;
+    border-radius: 10px;
+    border: none;
+}
+.Input-message input{
+    margin-top: 25px;
+    margin-left: 150px;
+    padding-right: 95px;
+    padding-left: 95px;
+    font-weight: bold;
+    transition: 0.5s;
+    background:linear-gradient(to right, #5252f5 ,#f5a2a2,#e55e5e);
+    
+    
+}
+.Input-message input:hover{
+    background: tomato;
+    color: white;
+}
